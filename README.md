@@ -1,11 +1,13 @@
 # CM5_MINIMA_REV1
- Compact, feature-filled, CM5 LoRaWAN carrier board
+_Compact, feature-filled, CM5 LoRaWAN carrier board_
 
 **Warning**:
-The board is untested, but DRC looks fine. Proceed at your own risk. I will send out for production before the end of 2024 and likely test the board by middle January 2025.
+The board is untested, but DRC looks fine. I will send out for production before the end of 2024 and likely test the board by middle January 2025.
+
+_Proceed at your own risk._
+
 
 **Peripherals**:
-
 - USB-C PD (CM5 can negotiate power delivery!)
 - USB2.0 
 - Gigabit Ethernet with cutout magjack for low profile
@@ -17,10 +19,17 @@ The board is untested, but DRC looks fine. Proceed at your own risk. I will send
 - Various status LEDs
 - Compact size 5.4 x 5.7 cm
 
-**Stackup**:
 
+**Stackup**:
 4L (SIG:PWR | GND | GND | SIG:PWR) 
 JLC0416H-3313 impedance stackup
+
+
+
+If you would like to suppoort me:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/peierluigicj)
+
 
 
 
