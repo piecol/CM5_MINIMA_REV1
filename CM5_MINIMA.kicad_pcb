@@ -1814,7 +1814,7 @@
 		(path "/962c7ee3-c22c-4eb7-a62d-19d1d090e823")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7637,7 +7637,7 @@
 		(path "/7d437deb-e96d-4bc2-899e-cd8da55d59f8")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -9457,7 +9457,7 @@
 		(path "/1eadeea8-f530-4bcc-8de2-8208eeb6d80e")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -10305,7 +10305,7 @@
 		(path "/1c44d4eb-c743-49f7-bdb8-a06a49015682")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -11475,7 +11475,7 @@
 		(path "/09ef1841-d579-4ba7-92d8-d3535ebd4a29/7c06771c-6709-46b7-87c3-1e1c40319fcc")
 		(sheetname "LoRaWAN")
 		(sheetfile "LoRaWAN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.905 1.27)
 			(end -1.905 0.635)
@@ -11798,7 +11798,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/8a7dbabf-c461-478a-bef3-d5055ab30aaa")
 		(sheetname "IO")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.94 -2.01)
 			(end 1.94 -2.01)
@@ -14047,7 +14047,7 @@
 		(sheetname "LoRaWAN")
 		(sheetfile "LoRaWAN.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.4 0.300001)
 			(end -1.4 -0.300001)
@@ -16821,7 +16821,7 @@
 		(path "/6f7bbb61-5128-4260-b2f7-4ae929abd2cd/3f08bcce-7e2f-4063-beab-79967c66ef1d")
 		(sheetname "Ethernet")
 		(sheetfile "Ethernet.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.925 -18.31)
 			(end 7.925 -12.1)
@@ -17303,7 +17303,7 @@
 		(path "/28be391f-d6a1-4832-b2ab-69373a3cb681")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -23787,7 +23787,7 @@
 		(path "/6c4db44e-ff3c-4d9c-b946-466b7ac88f9f")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
