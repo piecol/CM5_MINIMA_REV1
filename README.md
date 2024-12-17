@@ -19,7 +19,7 @@ The board is untested, but DRC looks fine. Proceed at your own risk. I will send
 
 **Stackup**:
 
-4L (SIG | GND | GND | SIG:PWR) 
+4L (SIG:PWR | GND | GND | SIG:PWR) 
 JLC0416H-3313 impedance stackup
 
 
