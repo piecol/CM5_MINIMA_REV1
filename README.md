@@ -28,7 +28,7 @@ JLC0416H-3313 impedance stackup
 
 
 
-### If you would like to suppoort me:
+### If you would like to support me:
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pierluigicj)
 
