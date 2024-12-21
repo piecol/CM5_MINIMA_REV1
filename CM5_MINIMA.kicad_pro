@@ -15,7 +15,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -477,14 +477,14 @@
       {
         "bus_width": 12,
         "clearance": 0.13,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.22,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
+        "diff_pair_width": 0.254,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100ohm",
-        "pcb_color": "rgb(255, 153, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
@@ -501,7 +501,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50ohm",
-        "pcb_color": "rgb(255, 0, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
@@ -511,14 +511,14 @@
       {
         "bus_width": 12,
         "clearance": 0.13,
-        "diff_pair_gap": 0.253,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.147,
+        "diff_pair_width": 0.254,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90ohm",
-        "pcb_color": "rgb(0, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.147,
         "via_diameter": 0.45,
@@ -535,7 +535,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HDMI",
-        "pcb_color": "rgb(255, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
@@ -561,11 +561,11 @@
         "pattern": "/*ETH_PI*"
       },
       {
-        "netclass": "HDMI",
+        "netclass": "100ohm",
         "pattern": "/*HDMI0_D*"
       },
       {
-        "netclass": "HDMI",
+        "netclass": "100ohm",
         "pattern": "/*HDMI0_CK*"
       }
     ]
