@@ -6785,8 +6785,8 @@
 			)
 			(uuid "817a0b97-d209-47c5-b7d4-375fe7cda5d9")
 		)
-		(pin "GPIO5" bidirectional
-			(at 130.81 97.79 180)
+		(pin "GPIO5" input
+			(at 130.81 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,26 +6955,6 @@
 			)
 			(uuid "93bdc171-c521-4322-8efe-3923fe17f5ed")
 		)
-		(pin "GPIO2" input
-			(at 130.81 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6c22788b-4cef-467d-994e-8eea77cb88bc")
-		)
-		(pin "GPIO3" input
-			(at 130.81 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ebc9a628-a24c-48b3-aba7-6a0333908849")
-		)
 		(pin "VBUS_EN" output
 			(at 130.81 153.67 180)
 			(effects
@@ -6994,6 +6974,16 @@
 				(justify left)
 			)
 			(uuid "0361fe6c-39e3-4bf8-a161-3d69ef28ab99")
+		)
+		(pin "GPIO4" output
+			(at 130.81 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0bc2482f-700f-4e21-b55d-f96c12c247b0")
 		)
 		(instances
 			(project "CM5_MINIMA"

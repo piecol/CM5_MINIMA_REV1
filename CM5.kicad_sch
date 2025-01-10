@@ -4903,8 +4903,8 @@
 		(uuid "d28419fc-9906-46d9-ad25-77e3ef6d7378")
 	)
 	(no_connect
-		(at 71.12 144.78)
-		(uuid "d519aa5a-04b8-454d-a1b0-1473a1722e1e")
+		(at 71.12 149.86)
+		(uuid "d4441a72-632d-4aa5-b022-9bc42989dd59")
 	)
 	(no_connect
 		(at 251.46 162.56)
@@ -4945,6 +4945,10 @@
 	(no_connect
 		(at 345.44 114.3)
 		(uuid "f1f66d0b-8597-453e-9136-bfb38b17894c")
+	)
+	(no_connect
+		(at 71.12 147.32)
+		(uuid "f5391bca-1aee-4ec7-8890-2f62cd43efe7")
 	)
 	(no_connect
 		(at 345.44 132.08)
@@ -8319,6 +8323,17 @@
 		)
 		(uuid "39a30f5e-69c0-42f2-9aff-14df87ab9bf6")
 	)
+	(label "GPIO2"
+		(at 71.12 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d896e4d-e081-4b18-aad5-855b9cabeb42")
+	)
 	(label "GPIO11"
 		(at 71.12 124.46 0)
 		(fields_autoplaced yes)
@@ -8990,6 +9005,17 @@
 		)
 		(uuid "bdcae214-a286-4825-8b38-1d5b40f67862")
 	)
+	(label "GPIO3"
+		(at 71.12 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beae8e7e-aa63-425a-88c0-22852be4cbc6")
+	)
 	(label "DPHY1_D1_N"
 		(at 344.805 182.88 180)
 		(fields_autoplaced yes)
@@ -9209,17 +9235,6 @@
 			(justify right bottom)
 		)
 		(uuid "f935fcdf-b7d9-4693-b5e5-a1f7bbcf30e0")
-	)
-	(label "GPIO4"
-		(at 71.12 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa444069-fb65-49c4-842d-465712e1fc27")
 	)
 	(label "PCIE_nRST"
 		(at 345.44 91.44 180)
@@ -9552,7 +9567,7 @@
 		(uuid "c324f287-279e-4993-bd93-308bd2a10d51")
 	)
 	(hierarchical_label "GPIO5"
-		(shape bidirectional)
+		(shape input)
 		(at 69.85 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9587,30 +9602,6 @@
 		)
 		(uuid "d096c3cb-8948-4700-84aa-023e2f5eb925")
 	)
-	(hierarchical_label "GPIO3"
-		(shape input)
-		(at 71.12 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5aa4af9-9ac3-45a7-bd2b-c12da79a23ff")
-	)
-	(hierarchical_label "GPIO2"
-		(shape input)
-		(at 71.12 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0278526-af2a-4ea5-847e-2f6a8aed1d36")
-	)
 	(hierarchical_label "+5V"
 		(shape input)
 		(at 163.83 175.26 0)
@@ -9634,6 +9625,18 @@
 			(justify right)
 		)
 		(uuid "ec4f6f08-616a-45ec-aa7e-8a3c18ef4be6")
+	)
+	(hierarchical_label "GPIO4"
+		(shape output)
+		(at 71.12 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f03f185e-840d-4da6-b00c-218aef489529")
 	)
 	(hierarchical_label "nLED_ACTIVITY"
 		(shape output)
