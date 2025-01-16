@@ -1,8 +1,12 @@
 # CM5_MINIMA_REV1
 _Compact, feature-filled, CM5 LoRaWAN carrier board_
 
+## **OSHWA**:
+This project is certified as open-source hardware under the UID: IT000019
+https://certification.oshwa.org/it000019.html
+
 ## **Warning**:
-The board is untested, but DRC looks fine. I will send out for production before the end of 2024 and likely test the board by middle January 2025.
+Board tested, everything works, except for the RAK3172 UART, which was moved from UART0_IR to UART2. It works with this change, schematics, layout and production files are corrected.
 
 _Proceed at your own risk._
 
